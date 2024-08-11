@@ -1,5 +1,6 @@
 import React from "react";
+import Inprogress from "../Components/Inprogress";
 
 export const Summary = () => {
-  return <div>Summary</div>;
+  return <Inprogress />;
 };

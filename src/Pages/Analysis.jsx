@@ -1,5 +1,6 @@
 import React from "react";
+import Inprogress from "../Components/Inprogress";
 
 export const Analysis = () => {
-  return <div>Analysis</div>;
+  return <Inprogress />;
 };

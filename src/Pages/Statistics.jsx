@@ -1,5 +1,6 @@
 import React from "react";
+import Inprogress from "../Components/Inprogress";
 
 export const Statistics = () => {
-  return <div>Satistics</div>;
+  return <Inprogress />;
 };

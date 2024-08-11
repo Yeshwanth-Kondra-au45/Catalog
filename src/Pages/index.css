@@ -1,0 +1,43 @@
+.controller-bar {
+    margin: 60px 0 28px 0;
+    justify-content: space-between;
+}
+
+.left-container {
+    cursor: pointer;
+
+    span {
+        color: #6c757d;
+    }
+
+    &&>div {
+        margin-right: 16px;
+    }
+}
+
+.navbar {
+    display: flex;
+    border-radius: .5rem;
+    padding: .25rem;
+    width: fit-content;
+}
+
+.nav-item {
+    background: none;
+    border: none;
+    padding: .5rem 1rem;
+    color: #6c757d;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    transition: background 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #e9ecef;
+}
+
+.nav-item.active {
+    background-color: #4B40EE;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.tabs-container {
+  column-gap: 2.9375rem;
+}
+
+.tab {
+  background: none;
+  cursor: pointer;
+  width: 6.25rem;
+  border: none;
+  transition: background 0.3s ease;
+  border-radius: .5rem;
+  padding: 0 16px;
+}
+
+.tab:hover {
+  background-color: #e9ecef;
+
+}
+
+.tab-title {
+  text-decoration: underline;
+  text-decoration-color: #4B40EE;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+}
+
+.border {
+  border-bottom: 1.6992px solid #EFF1F3;
+  margin-top: 7px;
+}
